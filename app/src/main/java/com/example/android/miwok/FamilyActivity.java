@@ -39,7 +39,7 @@ public class FamilyActivity extends AppCompatActivity {
         // display a single word. This sample code ListView explanation is here for my understanding, thanks to Udacity
 
         WordAdapter adapter =
-                new WordAdapter(this, wordsList); // R.layout.list_item
+                new WordAdapter(this, wordsList, R.color.category_family); // R.layout.list_item
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
